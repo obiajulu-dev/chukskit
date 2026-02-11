@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <section id="hero" className="min-h-screen w-full text-black ">
       
-      <div className="flex-col flex md:flex   w-full min-h-screen    ">
+      <div className="flex-col flex md:flex-row   w-full min-h-screen    ">
 
         {/* LEFT IMAGE */}
         <div className="relative w-1/2 hidden md:block">
@@ -15,13 +15,18 @@ const Main = () => {
           />
         </div>
 
-         <div className="relative w-full inline md:hidden px-3 ">
+         <div className="relative w-full inline md:hidden px-3 py-2 ">
           <img
             alt="mainimg"
             src="./img/main mo.png"
             className=" w-full "
           />
         </div>
+            <div className="flex justify-end p-3">
+            <button className="border md:hidden w-32 inline border-[#1E88E5] text-[#1E88E5] px-8 py-3 rounded-xl">
+                Sign in
+            </button>
+            </div>
 
         {/* RIGHT CONTENT */}
         <div className="w-full md:w-1/2 flex flex-col justify-between px-3 mb:px-0 py-6">
@@ -37,7 +42,7 @@ const Main = () => {
                 className="h-10 w-auto"
               />
 
-              <button className="border border-[#1E88E5] text-[#1E88E5] px-8 py-3 rounded-md">
+              <button className="border hidden md:inline border-[#1E88E5] text-[#1E88E5] px-8 py-3 rounded-md">
                 Sign in
               </button>
             </div>
@@ -54,7 +59,7 @@ const Main = () => {
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-wrap">
-                 <div className="flex items-start gap-1">
+                 <div className="flex items-start gap-1 p-1 bg-[#F3F4F6] md:bg-white rounded-md">
                     <div className="bg-orange-100 p-3 items-center  rounded-xl">
                         <Reserve size="20" color="#FF8A65" className=""/>
                     </div>
@@ -63,7 +68,7 @@ const Main = () => {
                     </div>
                  </div>
 
-                 <div className="flex items-start gap-1 min-w-70">
+                 <div className="flex items-start gap-1 p-1 bg-[#F3F4F6] md:bg-white min-w-70 rounded-md">
                     <div className="bg-orange-100 p-3 items-center  rounded-xl">
                         <Reserve size="20" color="#FF8A65" className=""/>
                     </div>
@@ -72,7 +77,7 @@ const Main = () => {
                     </div>
                  </div>
 
-                 <div className="flex items-start gap-1 min-w-70">
+                 <div className="flex items-start gap-1 p-1 bg-[#F3F4F6] md:bg-white min-w-70 rounded-md">
                     <div className="bg-orange-100 p-3 items-center rounded-xl">
                         <TruckFast size="20" color="#FF8A65" className=""/>
                     </div>
