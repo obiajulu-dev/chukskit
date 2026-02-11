@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <section id="hero" className="min-h-screen w-full text-black ">
       
-      <div className="flex w-full min-h-screen    ">
+      <div className="flex-col flex md:flex   w-full min-h-screen    ">
 
         {/* LEFT IMAGE */}
         <div className="relative w-1/2 hidden md:block">
@@ -15,61 +15,69 @@ const Main = () => {
           />
         </div>
 
+         <div className="relative w-full inline md:hidden px-3 ">
+          <img
+            alt="mainimg"
+            src="./img/main mo.png"
+            className=" w-full "
+          />
+        </div>
+
         {/* RIGHT CONTENT */}
-        <div className="w-full md:w-1/2 flex flex-col justify-between py-6">
+        <div className="w-full md:w-1/2 flex flex-col justify-between px-3 mb:px-0 py-6">
 
           {/* Constrained content wrapper */}
           <div className="w-full md:container md:mx-auto md:px-28 flex flex-col h-full justify-between">
 
             {/* Top Nav */}
-            <div className="flex justify-between items-center">
+            <div className="flex justify-center md:justify-between items-center">
               <img
                 alt="logo"
                 src="./img/Chuks Kitchen.png"
                 className="h-10 w-auto"
               />
 
-              <button className="border border-[#1E88E5] text-[#1E88E5] px-6 py-2 rounded-md">
+              <button className="border border-[#1E88E5] text-[#1E88E5] px-8 py-3 rounded-md">
                 Sign in
               </button>
             </div>
 
             {/* Middle Content */}
-            <div className="flex flex-col gap-5 my-10">
-              <h1 className="text-4xl font-bold">
+            <div className="flex flex-col gap-5 my-10 mx-1">
+              <h1 className="text-[35px] font-bold">
                 Your Authentic Taste of Nigeria
               </h1>
 
               <p>
-                Experience homemade flavors delivered fresh to your desk or home.<br/>
+                Experience homemade flavors delivered fresh to your desk or home.
                 We bring the rich culinary heritage of Nigeria right to your doorstep.
               </p>
 
-              <div className="flex gap-4 flex-wrap">
-                 <div className="flex gap-1">
-                    <div className="bg-orange-100 p-3  rounded-xl">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-wrap">
+                 <div className="flex items-start gap-1">
+                    <div className="bg-orange-100 p-3 items-center  rounded-xl">
                         <Reserve size="20" color="#FF8A65" className=""/>
                     </div>
-                    <div className="p-3 text-">
+                    <div className="p-3 text-base font-semibold ">
                           <p>Freshly Prepared</p>
                     </div>
                  </div>
 
-                 <div className="flex gap-1">
-                    <div className="bg-orange-100 p-3  rounded-xl">
+                 <div className="flex items-start gap-1 min-w-70">
+                    <div className="bg-orange-100 p-3 items-center  rounded-xl">
                         <Reserve size="20" color="#FF8A65" className=""/>
                     </div>
-                    <div className="p-3">
-                          <p>Freshly Prepared</p>
+                    <div className="p-3 font-semibold">
+                          <p>Support Local Business</p>
                     </div>
                  </div>
 
-                 <div className="flex gap-1">
-                    <div className="bg-orange-100 p-3  rounded-xl">
+                 <div className="flex items-start gap-1 min-w-70">
+                    <div className="bg-orange-100 p-3 items-center rounded-xl">
                         <TruckFast size="20" color="#FF8A65" className=""/>
                     </div>
-                    <div className="p-3">
-                          <p>Freshly Prepared</p>
+                    <div className="p-3 font-semibold">
+                          <p>Fast & Reliable Delivery</p>
                     </div>
                  </div>
                    
