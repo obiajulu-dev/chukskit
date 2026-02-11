@@ -100,7 +100,7 @@ const Main = () => {
             </div>
 
             {/* Footer */}
-            <div className="text-sm gap-5 flex justify-center text-center text-gray-500">
+            <div className="text-sm gap-5 hidden md:flex justify-center text-center text-gray-500">
               <p>2024 Chucks Kitchen</p> 
               <a className="text-[#1E88E5]">Privacy Policy</a>
               <a className="text-[#1E88E5]">Terms of Services</a>
