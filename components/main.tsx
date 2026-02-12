@@ -15,7 +15,7 @@ const Main = () => {
           />
         </div>
 
-         <div className="relative w-full inline md:hidden  py-1 ">
+         <div className="relative w-full inline md:hidden  ">
           <img
             alt="mainimg"
             src="./img/main mo.png"

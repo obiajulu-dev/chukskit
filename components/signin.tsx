@@ -76,7 +76,10 @@ const Signin = () => {
                         <button  className="w-full bg-[#FF7A18] rounded-md p-3 text-center flex items-center justify-center text-white">
                            <a href='#' className='text-[16px]'>Continue </a>
                         </button>
-                        <p className="text-[12px] text-center mt-2">or continue with</p>
+
+                        <button  className="w-full bg-[#F3F4F6] pt-3 rounded-md p-2 text-center flex items-center justify-center text-black">
+                           <a href='#' className='text-[16px]'>or continue with </a>
+                        </button>
                     </div>
 
             </div>

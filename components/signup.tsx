@@ -96,17 +96,20 @@ const Signup = () => {
             </div>
 
             <div>
-                    <div className="w-full flex flex-col pb-2 ">
+                    <div className="w-full flex flex-col pb-1 ">
                         <button  className="w-full bg-[#FF7A18] rounded-md p-3 text-center flex items-center justify-center text-white">
                            <a href='/signinn' className='text-[16px]'>Continue </a>
                         </button>
-                        <p className="text-[12px] text-center mt-2">or continue with</p>
+                    
+                        <button  className="w-full bg-[#F3F4F6] pt-3 rounded-md p-2 text-center flex items-center justify-center text-black">
+                           <a href='#' className='text-[16px]'>or continue with </a>
+                        </button>
                     </div>
 
             </div>
 
             <div>
-                    <div className="w-full flex flex-col gap-3 ">
+                    <div className="w-full flex flex-col gap-5 ">
                         <button  className="w-full bg-[white]  rounded-md p-1 text-center flex items-center justify-center text-black">
                            <a href='' className='text-sm'> Continue with Google </a>
                         </button>
