@@ -1,4 +1,5 @@
 
+import Footer from "@/components/footer"
 import Main from "@/components/main"
 import { Metadata } from "next"
 
@@ -12,6 +13,7 @@ export default function Home() {
   	return (
 		<main>
 			<Main/>  
+			<Footer/>
 
 		</main> 
   	)
