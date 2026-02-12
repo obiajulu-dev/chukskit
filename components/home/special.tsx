@@ -7,7 +7,7 @@ const Special=()=>{
             <div className="md:mx-auto md:container space-x-5 flex justify-between ">
                <div className="relative w-full  md:block py-16">
                 <h1 className="text-[32px] font-bold  text-center justify-center">Chef's Specials</h1>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-10  flex-wrap p-10">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-10  flex-wrap px-6 md:px-10 py-3">
                     <div className="flex-col bg-white rounded-xl pb-5">
                        <div>
                            <img alt="mainimg"src="./img/rice.png" className="w-full"/>
