@@ -15,16 +15,16 @@ const Main = () => {
           />
         </div>
 
-         <div className="relative w-full inline md:hidden px-2 py-1 ">
+         <div className="relative w-full inline md:hidden  py-1 ">
           <img
             alt="mainimg"
             src="./img/main mo.png"
             className=" w-full "
           />
         </div>
-            <div className="flex justify-end p-3">
+            <div  className="flex justify-end p-3">
             <button className="border md:hidden w-32 inline border-[#1E88E5] text-[#1E88E5] px-8 py-3 rounded-xl">
-                Sign in
+               <a href="signinn">Sign in</a>
             </button>
             </div>
 
@@ -43,7 +43,7 @@ const Main = () => {
               />
 
               <button className="border hidden md:inline border-[#1E88E5] text-[#1E88E5] px-8 py-3 rounded-md">
-                Sign in
+                <a href="signinn">Sign in</a>
               </button>
             </div>
 
@@ -90,7 +90,7 @@ const Main = () => {
 
               <div className="flex flex-col gap-4">
                 <button className="bg-[#FF7A18] py-3 rounded-2xl text-white font-semibold">
-                  Start Your Order
+                <a href="Signinn">  Start Your Order</a>
                 </button>
 
                 <button className="border border-[#1E88E5] py-3 rounded-2xl text-[#1E88E5] font-semibold">
