@@ -74,7 +74,7 @@ const Signin = () => {
             <div>
                     <div className="w-full flex flex-col pb-2 ">
                         <button  className="w-full bg-[#FF7A18] rounded-md p-3 text-center flex items-center justify-center text-white">
-                           <a href='#' className='text-[16px]'>Continue </a>
+                           <a href='/home' className='text-[16px]'>Continue </a>
                         </button>
 
                         <button  className="w-full bg-[#F3F4F6] pt-3 rounded-md p-2 text-center flex items-center justify-center text-black">
