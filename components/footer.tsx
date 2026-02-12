@@ -11,7 +11,8 @@ import { Instagram, Facebook, Xrp, DocumentText, Whatsapp } from "iconsax-react"
                       <div className="text-left space-y-2">
                          <img alt="devy" src='./img/Chuks Kitchen.png' className='  '></img> 
                         <span className="space-y-3">
-                           <p className="text-[20px]"> Bringing the authentic <br/>  flavors of Nigerian <br/>  home cooking to your <br/> table, with passion and care.</p>
+                           <p className="text-[20px] hidden md:flex"> Bringing the authentic <br/>  flavors of Nigerian <br/>  home cooking to your <br/> table, with passion and care.</p>
+                            <p className="text-[20px]  flex md:hidden"> Bringing the authentic flavors of Nigerian home cooking to your table, with passion and care.</p>
                          </span>
                     </div> 
 
