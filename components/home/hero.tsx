@@ -15,10 +15,10 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50"></div>
 
       {/* Content Wrapper */}
-      <div className="relative z-10 container mx-auto h-full flex items-center px-12">
+      <div className="relative z-10 container mx-auto h-full flex items-center px-8 md:px-12">
         <div className="max-w-2xl space-y-6">
           <h1 className="text-4xl font-bold">
-            The Heart of Nigerian Home <br /> Cooking
+            The Heart of Nigerian Home <br className='hidden md:flex' /> Cooking
           </h1>
 
           <p className="text-xl font-semibold">

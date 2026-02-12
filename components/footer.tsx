@@ -4,7 +4,7 @@ import { Instagram, Facebook, Xrp, DocumentText, Whatsapp } from "iconsax-react"
         <footer className='bg-[#5E3E26] relative z-20 '>
          <div className="md:container bg-Dark rounded-t-[100px] md:mx-auto ">
             <div className="flex justify-left flex-col text-white text-left items-left gap-6  w-full  md:gap-5">
-               <div className="w-full flex-col space-y-9 md:grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-[101px] p-8 text-base">
+               <div className="w-full flex-col space-y-9 md:grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-[101px] lg:justify-between p-8 text-base">
                      {/* Logo */}
 
 
