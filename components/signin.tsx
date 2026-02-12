@@ -11,7 +11,7 @@ const Signin = () => {
           <img
             alt="mainimg"
             src="./img/main.png"
-            className="absolute inset-0 object-cover w-full h-screen"
+            className="absolute inset-0 object-cover w-full h-fit"
           />
 
           <div className="absolute inset-0 bg-[#FF7A18B2] opacity-70"></div>
@@ -67,14 +67,14 @@ const Signin = () => {
                     </div>
 
                     <div className="w-full  flex justify-end mb-6">
-                        <a href='forgot' className="text-[12px] text-[#1C7FF9] whitespace-nowrap font-light cursor-pointer ">Forgot Password ?</a>
+                        <a href='#' className="text-[12px] text-[#1C7FF9] whitespace-nowrap font-light cursor-pointer ">Forgot Password ?</a>
                     </div>
             </div>
 
             <div>
                     <div className="w-full flex flex-col pb-2 ">
                         <button  className="w-full bg-[#FF7A18] rounded-md p-3 text-center flex items-center justify-center text-white">
-                           <a href='' className='text-[16px]'>Continue </a>
+                           <a href='#' className='text-[16px]'>Continue </a>
                         </button>
                         <p className="text-[12px] text-center mt-2">or continue with</p>
                     </div>
@@ -95,7 +95,7 @@ const Signin = () => {
             
                  <div className="w-full flex pb-4 items-center justify-center">
                     <p className="text-[12px] text-black font-normal ">Dont have an account? </p>
-                    <a href="signup"className=" text-[12px] font-semibold text-[#1C7FF9]">Create an account </a>
+                    <a href="signupp"className=" text-[12px] font-semibold text-[#1C7FF9]">Create an account </a>
                 </div>
             
  
