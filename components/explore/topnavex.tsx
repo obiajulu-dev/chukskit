@@ -2,7 +2,7 @@
 import { useRef, useState }from 'react';
 import {BinanceCoin } from 'iconsax-react'
 
-const Topnav=()=>{
+const Topnavex=()=>{
 
     const hamburger = useRef<HTMLDivElement>(null);
     const mobileNavBody = useRef<HTMLDivElement>(null);
@@ -34,8 +34,8 @@ const Topnav=()=>{
 
                     {/* Menu Item */}
                     <div className="hidden justify-between gap-36 md:flex text-center md:items-center text-black text-base">
-                        <a href="/" className="text-[#FF7A18] text-[16px]  ">Home</a>
-                        <a href="explore" className="hover:text-white text-[16px]   ">Explore </a>
+                        <a href="/home" className="hover:text-white text-[16px]  ">Home</a>
+                        <a href="/" className="text-[#FF7A18] text-[16px]   ">Explore </a>
                         <a href="" className="hover:text-white min-w-20 text-[16px]   ">My Orders </a>
                         <a href="/" className="hover:text-white  text-[16px] ">Account</a>
                     </div>
@@ -77,4 +77,4 @@ const Topnav=()=>{
     )
 }
 
-export default Topnav;
+export default Topnavex;
