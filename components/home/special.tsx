@@ -21,7 +21,7 @@ const Special=()=>{
                         <div className='w-full flex justify-between items-center px-3 py-2'>
                             <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
                               <button  className=" bg-[#FF7A18] rounded-md p-3 text-center w-[100px] lg:w-[150px] flex items-center justify-center text-white">
-                                 <a href='#' className='lg:text-[14px] text-[12px]'>Add to cart </a>
+                                 <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
                               </button>
                         </div>
                    </div>
@@ -39,7 +39,7 @@ const Special=()=>{
                         <div className='w-full flex justify-between items-center px-3 py-2'>
                             <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
                               <button  className=" bg-[#FF7A18] rounded-md p-3 text-center  w-[100px] lg:w-[150px] flex items-center justify-center text-white">
-                                 <a href='#' className='lg:text-[14px] text-[12px]'>Add to cart </a>
+                                 <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
                               </button>
                         </div>
                    </div>
@@ -57,7 +57,7 @@ const Special=()=>{
                         <div className='w-full flex justify-between items-center px-3 py-2'>
                             <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
                               <button  className=" bg-[#FF7A18] rounded-md p-3 text-center  w-[100px] lg:w-[150px] flex items-center justify-center text-white">
-                                 <a href='#' className='lg:text-[14px] text-[12px]'>Add to cart </a>
+                                 <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
                               </button>
                         </div>
                    </div>
@@ -75,7 +75,7 @@ const Special=()=>{
                         <div className='w-full flex justify-between items-center px-3 py-2'>
                             <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
                               <button  className=" bg-[#FF7A18] rounded-md p-3 text-center  w-[100px] lg:w-[150px] flex items-center justify-center text-white">
-                                 <a href='#' className='lg:text-[14px] text-[12px]'>Add to cart </a>
+                                 <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
                               </button>
                         </div>
                    </div>
@@ -93,7 +93,7 @@ const Special=()=>{
                         <div className='w-full flex justify-between items-center px-3 py-2'>
                             <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
                               <button  className=" bg-[#FF7A18] rounded-md p-3 text-center  w-[100px] lg:w-[150px] flex items-center justify-center text-white">
-                                 <a href='#' className='lg:text-[14px] text-[12px]'>Add to cart </a>
+                                 <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
                               </button>
                         </div>
                    </div>
@@ -111,7 +111,7 @@ const Special=()=>{
                         <div className='w-full flex justify-between items-center px-3 py-2'>
                             <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
                               <button  className=" bg-[#FF7A18] rounded-md p-3 text-center  w-[100px] lg:w-[150px] flex items-center justify-center text-white">
-                                 <a href='#' className='lg:text-[14px] text-[12px]'>Add to cart </a>
+                                 <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
                               </button>
                         </div>
                    </div>
