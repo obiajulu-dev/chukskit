@@ -12,42 +12,42 @@ const Popular=()=>{
                        <div>
                            <img alt="mainimg"src="./img/rice.png" className="w-full"/>
                        </div>
-                       <p className="py-10 text-center font-semibold text-[24px] ">Jollof Delights</p>
+                       <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Jollof Delights</p>
                    </div>
 
                     <div className="flex-col bg-white rounded-xl">
                        <div>
                            <img alt="mainimg"src="./img/swallo.png" className="w-full"/>
                        </div>
-                       <p className="py-10 text-center font-semibold text-[24px] ">Swallow & Soups</p>
+                       <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Swallow & Soups</p>
                    </div>
 
                     <div className="flex-col bg-white rounded-xl">
                        <div>
                            <img alt="mainimg"src="./img/meat.png" className="w-full"/>
                        </div>
-                       <p className="py-10 text-center font-semibold text-[24px] ">Grills & BBQ</p>
+                       <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Grills & BBQ</p>
                    </div>
 
                     <div className="hidden md:flex md:flex-col bg-white rounded-xl">
                        <div>
                            <img alt="mainimg"src="./img/chi.png" className="w-full"/>
                        </div>
-                       <p className="py-10 text-center font-semibold text-[24px] ">Sweet Treats</p>
+                       <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Sweet Treats</p>
                    </div>
 
                     <div className="hidden md:flex md:flex-col bg-white rounded-xl">
                        <div>
-                           <img alt="mainimg"src="./img/meat.png" className="w-full"/>
+                           <img alt="mainimg"src="./img/egusi.png" className="w-full"/>
                        </div>
-                       <p className="py-10 text-center font-semibold text-[24px] ">Swallow & Soups</p>
+                       <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Swallow & Soups</p>
                    </div>
 
                     <div className="hidden md:flex md:flex-col bg-white rounded-xl">
                        <div>
                            <img alt="mainimg"src="./img/rice.png" className="w-full"/>
                        </div>
-                       <p className="py-10 text-center font-semibold text-[24px] ">Jollof Delights</p>
+                       <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Jollof Delights</p>
                    </div>
 
 

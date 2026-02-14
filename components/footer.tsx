@@ -4,14 +4,14 @@ import { Instagram, Facebook, Xrp, DocumentText, Whatsapp } from "iconsax-react"
         <footer className='bg-[#5E3E26] relative z-20 '>
          <div className="md:container bg-Dark rounded-t-[100px] md:mx-auto ">
             <div className="flex justify-left flex-col text-white text-left items-left gap-6  w-full  md:gap-5">
-               <div className="w-full flex-col space-y-9 md:grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-[101px] lg:justify-between p-8 text-base">
+               <div className="w-full flex-col space-y-2 md:grid grid-cols-2 md:grid-cols-4 xl:grid-cols-4 gap-10 lg:gap-[101px] lg:justify-between p-8 text-base">
                      {/* Logo */}
 
 
                       <div className="text-left space-y-2">
                          <img alt="devy" src='./img/Chuks Kitchen.png' className='  '></img> 
                         <span className="space-y-3">
-                           <p className="text-[20px] hidden md:flex"> Bringing the authentic <br/>  flavors of Nigerian <br/>  home cooking to your <br/> table, with passion and care.</p>
+                           <p className="lg:text-[20px] text-10 hidden md:flex"> Bringing the authentic <br/>  flavors of Nigerian <br/>  home cooking to your <br/> table, with passion and care.</p>
                             <p className="text-[20px]  flex md:hidden"> Bringing the authentic flavors of Nigerian home cooking to your table, with passion and care.</p>
                          </span>
                     </div> 

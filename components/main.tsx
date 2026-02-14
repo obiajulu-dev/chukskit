@@ -32,33 +32,33 @@ const Main = () => {
         <div className="w-full md:w-1/2 flex flex-col justify-between px-3 mb:px-0 py-6">
 
           {/* Constrained content wrapper */}
-          <div className="w-full md:container md:mx-auto md:px-28 flex flex-col h-full justify-between">
+          <div className="w-full md:container md:mx-auto xl:px-28 flex flex-col h-full justify-between">
 
             {/* Top Nav */}
             <div className="flex justify-center md:justify-between items-center">
               <img
                 alt="logo"
                 src="./img/Chuks Kitchen.png"
-                className="h-10 w-auto"
+                className="xl:h-10 w-auto"
               />
 
-              <button className="border hidden md:inline border-[#1E88E5] text-[#1E88E5] px-8 py-3 rounded-md">
+              <button className="border hidden md:inline border-[#1E88E5] text-[#1E88E5] px-8 xl:py-3 py-2 rounded-md">
                 <a href="signinn">Sign in</a>
               </button>
             </div>
 
             {/* Middle Content */}
-            <div className="flex flex-col gap-5 my-10 mx-1">
-              <h1 className="text-[35px] font-bold">
+            <div className="flex flex-col gap-5 my-3 xl:my-10 mx-1">
+              <h1 className="xl:text-[35px] text-[24px] font-bold">
                 Your Authentic Taste of Nigeria
               </h1>
 
-              <p>
+              <p className='lg:text-[16px] text-[14px] xl:text-[18px]'>
                 Experience homemade flavors delivered fresh to your desk or home.
                 We bring the rich culinary heritage of Nigeria right to your doorstep.
               </p>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-wrap">
+              <div className="grid grid-cols-1 lg:grid-cols-1 lg:gap-4 flex-wrap">
                  <div className="flex items-start gap-1 p-1 bg-[#F3F4F6] md:bg-white rounded-md">
                     <div className="bg-orange-100 p-3 items-center  rounded-xl">
                         <Reserve size="20" color="#FF8A65" className=""/>
@@ -68,7 +68,7 @@ const Main = () => {
                     </div>
                  </div>
 
-                 <div className="flex items-start gap-1 p-1 bg-[#F3F4F6] md:bg-white min-w-70 rounded-md">
+                 <div className="flex items-start gap-1 p-1 bg-[#F3F4F6] md:bg-white lg:min-w-70 rounded-md">
                     <div className="bg-orange-100 p-3 items-center  rounded-xl">
                         <Reserve size="20" color="#FF8A65" className=""/>
                     </div>
@@ -90,7 +90,7 @@ const Main = () => {
 
               <div className="flex flex-col gap-4">
                 <button className="bg-[#FF7A18] py-3 rounded-2xl text-white font-semibold">
-                <a href="Signinn">  Start Your Order</a>
+                <a href="home">  Start Your Order</a>
                 </button>
 
                 <button className="border border-[#1E88E5] py-3 rounded-2xl text-[#1E88E5] font-semibold">
@@ -100,7 +100,7 @@ const Main = () => {
             </div>
 
             {/* Footer */}
-            <div className="text-sm gap-5 hidden md:flex justify-center text-center text-gray-500">
+            <div className="lg:text-sm text-xs lg:gap-5 gap-2 hidden md:flex justify-center text-center text-gray-500">
               <p>2024 Chucks Kitchen</p> 
               <a className="text-[#1E88E5]">Privacy Policy</a>
               <a className="text-[#1E88E5]">Terms of Services</a>
