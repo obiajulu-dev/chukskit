@@ -62,10 +62,10 @@ const Topnavex=()=>{
             <div className="inline lg:hidden">
                 <div  ref={mobileNavBody} className="mx-10 relative flex-col items-start hidden py-10  font-semibold text-lg h-auto bg-bhgreen text-black z-50">
                     <div className="textReveal flex flex-col text-left items-left content-center space-y-6 text-sm justify-left font-bold">
-                        <a href="/home" className="hover:text-white text-[16px]  ">Home</a>
-                        <a href="/explore" className="hover:text-white text-[16px]   ">Explore </a>
-                        <a href="" className="hover:text-white min-w-20 text-[16px]   ">My Orders </a>
-                        <a href="/" className="hover:text-white  text-[16px] ">Account</a>
+                        <a href="/home" className="hover:text-hover:text-[#FF7A18] text-[16px]  ">Home</a>
+                        <a href="/explore" className="hover:text-black text-[16px] text-[#FF7A18]   ">Explore </a>
+                        <a href="" className="hover:text-hover:text-[#FF7A18] min-w-20 text-[16px]   ">My Orders </a>
+                        <a href="/" className="hover:text-hover:text-[#FF7A18]  text-[16px] ">Account</a>
 
                       
                     </div>                    

@@ -7,16 +7,16 @@ const Popex=()=>{
             <div className="md:mx-auto md:container space-x-5 flex justify-between ">
                <div className="relative w-full  md:block py-8">
                 <h1 className="md:text-[32px] text-[16px] md:px-10 px-8 font-bold  text-left justify-center">Popular</h1>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-10  flex-wrap px-6 md:px-10 py-3">
+                <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-10  gap-3 flex-wrap px-6 md:px-10 py-3">
                     <div className="md:flex-col flex bg-white rounded-xl p-1 mb:p-0 mb:pb-5">
                        <div>
-                           <img alt="mainimg"src="./img/rice.png" className="w-full hidden md:flex h-full"/>
-                           <img alt="mainimg"src="./img/jo.png" className="w-full flex md:hidden h-full]"/>
+                           <img alt="mainimg"src="./img/ricee.png" className="w-full hidden md:flex h-full"/>
+                           <img alt="mainimg"src="./img/jo.png" className="w-full flex md:hidden h-full"/>
                        </div>
                     <div className="flex-col">
                         <div className="p-1 md:p-3">
-                        <h1 className='text-[16px] md:text-[34px] font-semibold'>Swallow & Soup</h1>  
-                         <p className=" text-left text-[12px] font-regular md:font-medium  md:text-[16px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
+                        <h1 className='lg:text-[16px] md:text-[14px]  font-semibold'>Jollof Rice & Fried Chicken</h1>
+                         <p className=" text-left font-medium lg:text-[16px] text-[12px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
                         </div>
 
                         <div className='w-full flex justify-between items-center px-3 md:py-2'>
@@ -29,13 +29,13 @@ const Popex=()=>{
 
                     <div className="md:flex-col flex bg-white rounded-xl p-1 mb:p-0 mb:pb-5">
                        <div>
-                           <img alt="mainimg"src="./img/rice.png" className="w-full hidden md:flex h-full"/>
-                           <img alt="mainimg"src="./img/jo.png" className="w-full flex md:hidden h-full]"/>
+                           <img alt="mainimg"src="./img/egusi.png" className="w-full hidden md:flex h-full"/>
+                           <img alt="mainimg"src="./img/jo.png" className="w-full flex md:hidden h-full"/>
                        </div>
                     <div className="flex-col">
                         <div className="p-1 md:p-3">
-                        <h1 className='text-[16px] md:text-[34px] font-semibold'>Swallow & Soup</h1>  
-                         <p className=" text-left text-[12px] font-regular md:font-medium  md:text-[16px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
+                        <h1 className='lg:text-[16px] md:text-[14px] font-semibold'>Egusi Soup & Pounded Yam</h1>  
+                         <p className=" text-left font-medium lg:text-[16px] text-[12px] ">Rich and savory Egusi soup with assorted meats, paired with freshly pounded yam. </p>
                         </div>
 
                         <div className='w-full flex justify-between items-center px-3 md:py-2'>
@@ -48,13 +48,13 @@ const Popex=()=>{
 
                     <div className="md:flex-col flex bg-white rounded-xl p-1 mb:p-0 mb:pb-5">
                        <div>
-                           <img alt="mainimg"src="./img/rice.png" className="w-full hidden md:flex h-full"/>
+                           <img alt="mainimg"src="./img/spic.png" className="w-full hidden md:flex h-full"/>
                            <img alt="mainimg"src="./img/me.png" className="w-full flex md:hidden h-full]"/>
                        </div>
                     <div className="flex-col">
                         <div className="p-1 md:p-3">
-                        <h1 className='text-[16px] md:text-[34px] font-semibold'>Swallow & Soup</h1>  
-                         <p className=" text-left text-[12px] font-regular md:font-medium  md:text-[16px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
+                        <h1 className='lg:text-[16px] md:text-[14px] font-semibold'>Spicy Tilapia Pepper Soup</h1>  
+                         <p className=" text-left font-medium lg:text-[16px] text-[12px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
                         </div>
 
                         <div className='w-full flex justify-between items-center px-3 md:py-2'>
@@ -71,8 +71,8 @@ const Popex=()=>{
                        </div>
 
                        <div className="p-3">
-                        <h1 className='text-[34px] font-semibold'>Swallow & Soup</h1>  
-                         <p className=" text-left font-medium text-[16px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
+                        <h1 className='lg:text-[16px] md:text-[14px]  font-semibold'>Jollof Rice & Fried Chicken</h1>  
+                         <p className=" text-left font-medium lg:text-[16px] text-[12px] ">Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.</p>
                         </div>
 
                         <div className='w-full flex justify-between items-center px-3 py-2'>
@@ -83,12 +83,12 @@ const Popex=()=>{
 
                     <div className="hidden md:flex md:flex-col bg-white rounded-xl pb-5">
                        <div>
-                           <img alt="mainimg"src="./img/chi.png" className="w-full"/>
+                           <img alt="mainimg"src="./img/egusi.png" className="w-full"/>
                        </div>
 
                        <div className="p-3">
-                        <h1 className='text-[34px] font-semibold'>Swallow & Soup</h1>  
-                         <p className=" text-left font-medium text-[16px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
+                        <h1 className='lg:text-[16px] md:text-[14px] font-semibold'>Egusi Soup & Pounded Yam</h1>  
+                         <p className=" text-left font-medium lg:text-[16px] text-[12px] ">Rich and savory Egusi soup with assorted meats, paired with freshly pounded yam. </p>
                         </div>
 
                         <div className='w-full flex justify-between items-center px-3 py-2'>
@@ -99,12 +99,12 @@ const Popex=()=>{
 
                     <div className="hidden md:flex md:flex-col bg-white rounded-xl pb-5">
                        <div>
-                           <img alt="mainimg"src="./img/swallo.png" className="w-full"/>
+                           <img alt="mainimg"src="./img/ricee.png" className="w-full"/>
                        </div>
 
                        <div className="p-3">
-                        <h1 className='text-[34px] font-semibold'>Swallow & Soup</h1>  
-                         <p className=" text-left font-medium text-[16px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
+                        <h1 className='lg:text-[16px] md:text-[14px]  font-semibold'>Jollof Rice & Fried Chicken</h1>  
+                         <p className=" text-left font-medium lg:text-[16px] text-[12px] ">Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.</p>
                         </div>
 
                         <div className='w-full flex justify-between items-center px-3 py-2'>

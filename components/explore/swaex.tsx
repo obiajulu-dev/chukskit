@@ -15,8 +15,8 @@ const Swaex=()=>{
                        </div>
                     <div className="flex-col">
                         <div className="p-1 md:p-3">
-                        <h1 className='text-[16px] md:text-[34px] font-semibold'>Swallow & Soup</h1>  
-                         <p className=" text-left text-[12px] font-regular md:font-medium  md:text-[16px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
+                        <h1 className='lg:text-[16px] md:text-[14px] font-semibold'>Egusi Soup & Pounded Yam</h1>  
+                         <p className=" text-left font-medium lg:text-[16px] text-[12px] ">Rich and savory Egusi soup with assorted meats, paired with freshly pounded yam. </p>
                         </div>
 
                         <div className='w-full flex justify-between items-center px-3 md:py-2'>
@@ -34,8 +34,8 @@ const Swaex=()=>{
                        </div>
                     <div className="flex-col">
                         <div className="p-1 md:p-3">
-                        <h1 className='text-[16px] md:text-[34px] font-semibold'>Swallow & Soup</h1>  
-                         <p className=" text-left text-[12px] font-regular md:font-medium  md:text-[16px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
+                        <h1 className='lg:text-[16px] md:text-[14px] font-semibold'>Egusi Soup & Pounded Yam</h1>  
+                         <p className=" text-left font-medium lg:text-[16px] text-[12px] ">Rich and savory Egusi soup with assorted meats, paired with freshly pounded yam. </p>
                         </div>
 
                         <div className='w-full flex justify-between items-center px-3 md:py-2'>
@@ -53,8 +53,8 @@ const Swaex=()=>{
                        </div>
                     <div className="flex-col">
                         <div className="p-1 md:p-3">
-                        <h1 className='text-[16px] md:text-[34px] font-semibold'>Swallow & Soup</h1>  
-                         <p className=" text-left text-[12px] font-regular md:font-medium  md:text-[16px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
+                        <h1 className='lg:text-[16px] md:text-[14px] font-semibold'>Egusi Soup & Pounded Yam</h1>  
+                         <p className=" text-left font-medium lg:text-[16px] text-[12px] ">Rich and savory Egusi soup with assorted meats, paired with freshly pounded yam. </p>
                         </div>
 
                         <div className='w-full flex justify-between items-center px-3 md:py-2'>
