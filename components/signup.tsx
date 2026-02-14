@@ -2,16 +2,16 @@ import { Reserve, TruckFast } from "iconsax-react";
 
 const Signup = () => {
   return (
-    <section id="signup" className="min-h-screen w-full text-black ">
+    <section id="signup" className="lg:h-full w-full text-black ">
       
-      <div className="flex-col flex md:flex-row   w-full min-h-screen    ">
+      <div className="flex-col flex md:flex-row   w-full lg:h-full h-full    ">
 
         {/* LEFT IMAGE */}
         <div className="relative w-1/2 hidden md:block">
           <img
             alt="mainimg"
             src="./img/main.png"
-            className="absolute inset-0 object-cover w-full h-fit"
+            className="absolute inset-0 object-cover w-full h-full lg:h-full"
           />
 
           <div className="absolute inset-0 bg-[#FF7A18B2] opacity-70"></div>
@@ -27,10 +27,10 @@ const Signup = () => {
 
 
         {/* RIGHT CONTENT */}
-        <div className="w-full md:w-1/2 flex flex-col  md:container justify-between px-3 bg-[#F3F4F6] mb:px-0 py-10">
+        <div className="w-full md:w-1/2 flex flex-col justify-between px-3 bg-[#F3F4F6] h-screen md:h-fit lg:h-full mb:px-0 md:py-6">
 
           {/* Constrained content wrapper */}
-             <div className="w-full md:mx-auto md:px-28 flex flex-col gap-5 h-screen justify-center">
+          <div className="w-full lg:container md:mx-auto xl:px-20 md:px-10 flex flex-col gap-5 h-full lg:h-full justify-center">
 
             {/* Top Nav */}
             <div className="flex-col flex justify-center md:justify-center items-center">
@@ -44,9 +44,9 @@ const Signup = () => {
             </div>
 
              <div className='flex-col flex gap-5'>
-                    <div className="w-full  flex flex-col mb-1">
+                    <div className="w-full  flex flex-col ">
                         <h1 className='text-[14px] font-semibold mb-2'>Email</h1>
-                        <div className='border  rounded-md px-6 py-3 tablet:px-2 tablet:py-2'>
+                        <div className='border  rounded-md px-6 py-3 md:px-2 md:py-2 lg:px-3 lg:py-3'>
                             <input
                             type="email"
                             placeholder="Enter your email" 
@@ -55,9 +55,9 @@ const Signup = () => {
                         </div>
                     </div>
 
-                    <div className="w-full  flex flex-col mb-1">
+                    <div className="w-full  flex flex-col ">
                         <h1 className='text-[14px] font-semibold mb-2'> Phone number</h1>
-                        <div className='border  rounded-md px-6 py-3 tablet:px-2 tablet:py-2'>
+                        <div className='border  rounded-md px-6 py-3 md:px-2 md:py-2 lg:px-3 lg:py-3'>
                             <input
                             type="tel"
                             placeholder="Enter your phone number" 
@@ -66,9 +66,9 @@ const Signup = () => {
                         </div>
                     </div>
 
-                     <div className="w-full flex flex-col mb-1">
+                     <div className="w-full flex flex-col ">
                         <h1 className='text-[14px] font-semibold mb-2'>Password</h1>
-                       <div className='border rounded-md px-6 py-3 tablet:px-2 tablet:py-2 '>    
+                       <div className='border rounded-md px-6 py-3 md:px-2 md:py-2 lg:px-3 lg:py-3 '>    
                        <input
                         type="password"
                         placeholder="Enter your password" 
@@ -77,9 +77,9 @@ const Signup = () => {
                        </div>
                     </div>
 
-                     <div className="w-full flex flex-col mb-1">
+                     <div className="w-full flex flex-col ">
                         <h1 className='text-[14px] font-semibold mb-2'>Confirm Password</h1>
-                       <div className='border rounded-md px-6 py-3 tablet:px-2 tablet:py-2 '>    
+                       <div className='border rounded-md px-6 py-3 md:px-2 md:py-2 lg:px-3 lg:py-3 '>    
                        <input
                         type="password"
                         placeholder="Confirm your password" 
@@ -88,7 +88,7 @@ const Signup = () => {
                        </div>
                     </div>
 
-                    <div className="items-center text-[12px] flex space-x-2">
+                    <div className="items-center lg:text-[12px] flex md:text-[11px] space-x-2">
                       <input type="checkbox" id="terms" className="w-4 h-4 border-gray-300 rounded-sm blue outline-none "/>
                         <label htmlFor="terms" className="sm flex gap-1 text-gray-500">I agree to the <p className="text-[#1C7FF9]"> terms & conditions </p> and <p className="text-[#1C7FF9]">Privacy Policy</p></label>
                         

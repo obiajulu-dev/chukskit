@@ -21,7 +21,7 @@ const Topnavex=()=>{
            
             <div className="font-semibold relative md:container md:px-5 md:mx-auto  py-4">
                 {/* Flex Container */}
-                <div className="flex flex-row items-center lg:justify-between justify-between md:gap-30">
+                <div className="flex flex-row items-center lg:justify-between justify-between lg:gap-30">
                     
 
 
@@ -33,20 +33,20 @@ const Topnavex=()=>{
 
 
                     {/* Menu Item */}
-                    <div className="hidden justify-between gap-36 md:flex text-center md:items-center text-black text-base">
-                        <a href="/home" className="hover:text-white text-[16px]  ">Home</a>
-                        <a href="/" className="text-[#FF7A18] text-[16px]   ">Explore </a>
-                        <a href="" className="hover:text-white min-w-20 text-[16px]   ">My Orders </a>
-                        <a href="/" className="hover:text-white  text-[16px] ">Account</a>
+                    <div className="hidden justify-between gap-10 xl:gap-36 lg:flex text-center lg:items-center text-black text-base">
+                        <a href="/" className=" text-[16px] hover:text-[#FF7A18] ">Home</a>
+                        <a href="explore" className="hover:text-black text-[#FF7A18] text-[16px]   ">Explore </a>
+                        <a href="" className="hover:text-[#FF7A18] min-w-20 text-[16px]   ">My Orders </a>
+                        <a href="/" className="hover:text-[#FF7A18]  text-[16px] ">Account</a>
                     </div>
 
                     <div>
-                        <button className="border hidden md:flex bg-[#FF7A18] text-center items-center text-white px-10 py-3 w-32 rounded-md">
+                        <button className="border hidden lg:flex bg-[#FF7A18] text-center items-center text-white px-10 py-3 w-32 rounded-md">
                          <a href="signinn">Login</a>
                        </button>
                     </div>
                     {/* Hamburger Icon */}
-                    <div ref={hamburger} className=" hamburger md:hidden" onClick={handleHamburgerMenu}>
+                    <div ref={hamburger} className=" hamburger lg:hidden" onClick={handleHamburgerMenu}>
                       <span className="hamburger-top"></span>
                       <span className="hamburger-middle"></span>
                       <span className="hamburger-bottom"></span>
@@ -59,7 +59,7 @@ const Topnavex=()=>{
             </div>
 
  
-            <div className="inline mb:hidden">
+            <div className="inline lg:hidden">
                 <div  ref={mobileNavBody} className="mx-10 relative flex-col items-start hidden py-10  font-semibold text-lg h-auto bg-bhgreen text-black z-50">
                     <div className="textReveal flex flex-col text-left items-left content-center space-y-6 text-sm justify-left font-bold">
                         <a href="/home" className="hover:text-white text-[16px]  ">Home</a>

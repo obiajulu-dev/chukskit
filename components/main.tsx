@@ -42,7 +42,7 @@ const Main = () => {
                 className="xl:h-10 w-auto"
               />
 
-              <button className="border hidden md:inline border-[#1E88E5] text-[#1E88E5] px-8 xl:py-3 py-2 rounded-md">
+              <button className="border hidden md:inline border-[#1E88E5] text-[#1E88E5] px-8 xl:py-3 lg:py-2 py-1 rounded-md">
                 <a href="signinn">Sign in</a>
               </button>
             </div>
