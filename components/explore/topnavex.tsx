@@ -35,9 +35,9 @@ const Topnavex=()=>{
                     {/* Menu Item */}
                     <div className="hidden justify-between gap-10 xl:gap-36 lg:flex text-center lg:items-center text-black text-base">
                         <a href="/" className=" text-[16px] hover:text-[#FF7A18] ">Home</a>
-                        <a href="explore" className="hover:text-black text-[#FF7A18] text-[16px]   ">Explore </a>
-                        <a href="" className="hover:text-[#FF7A18] min-w-20 text-[16px]   ">My Orders </a>
-                        <a href="/" className="hover:text-[#FF7A18]  text-[16px] ">Account</a>
+                        <a href="#" className="hover:text-black text-[#FF7A18] text-[16px]   ">Explore </a>
+                        <a href="cart" className="hover:text-[#FF7A18] min-w-20 text-[16px]   ">My Orders </a>
+                        <a href="#" className="hover:text-[#FF7A18]  text-[16px] ">Account</a>
                     </div>
 
                     <div>
@@ -64,8 +64,8 @@ const Topnavex=()=>{
                     <div className="textReveal flex flex-col text-left items-left content-center space-y-6 text-sm justify-left font-bold">
                         <a href="/home" className="hover:text-hover:text-[#FF7A18] text-[16px]  ">Home</a>
                         <a href="/explore" className="hover:text-black text-[16px] text-[#FF7A18]   ">Explore </a>
-                        <a href="" className="hover:text-hover:text-[#FF7A18] min-w-20 text-[16px]   ">My Orders </a>
-                        <a href="/" className="hover:text-hover:text-[#FF7A18]  text-[16px] ">Account</a>
+                        <a href="cart" className="hover:text-hover:text-[#FF7A18] min-w-20 text-[16px]   ">My Orders </a>
+                        <a href="#" className="hover:text-hover:text-[#FF7A18]  text-[16px] ">Account</a>
 
                       
                     </div>                    

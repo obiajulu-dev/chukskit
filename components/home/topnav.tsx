@@ -36,8 +36,8 @@ const Topnav=()=>{
                     <div className="hidden justify-between gap-10 xl:gap-36 lg:flex text-center lg:items-center text-black text-base">
                         <a href="/" className="text-[#FF7A18] text-[16px]  ">Home</a>
                         <a href="explore" className="hover:text-white text-[16px]   ">Explore </a>
-                        <a href="" className="hover:text-white min-w-20 text-[16px]   ">My Orders </a>
-                        <a href="/" className="hover:text-white  text-[16px] ">Account</a>
+                        <a href="cart" className="hover:text-white min-w-20 text-[16px]   ">My Orders </a>
+                        <a href="#" className="hover:text-white  text-[16px] ">Account</a>
                     </div>
 
                     <div>
