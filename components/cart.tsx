@@ -30,14 +30,6 @@ export default function Home() {
       image: "/img/spic.png",
       quantity: 1,
     },
-    {
-      id: 4,
-      name: "Jollof Rice & Fried Chicken",
-      description: "With plantain, extra pepper sauce",
-      price: 3200,
-      image: "/img/rice.png",
-      quantity: 1,
-    },
   ]);
 
   // Increase quantity
@@ -69,21 +61,41 @@ export default function Home() {
 
   // Add More Items (WORKING)
   const addMoreItems = () => {
-    const newItem: CartItemType = {
-      id: Date.now(),
-      name: "Egusi Soup & Pounded Yam",
-      description: "Rich and savory Egusi soup with assorted meats",
-      price: 3500,
-      image: "/img/egusi.png",
-      quantity: 1,
-    };
+    // List of items you can add
+    const newItems: CartItemType[] = [
+      {
+        id: Date.now() + 1,
+        name: "Egusi Soup & Pounded Yam",
+        description: "Rich and savory Egusi soup with assorted meats",
+        price: 3500,
+        image: "/img/egusi.png",
+        quantity: 1,
+      },
+      {
+        id: Date.now() + 2,
+        name: "Spicy Tilapia Pepper Soup",
+        description: "Tender tilapia in spicy pepper soup",
+        price: 3800,
+        image: "/img/spic.png",
+        quantity: 1,
+      },
+      {
+        id: Date.now() + 3,
+        name: "Fried Rice & Chicken",
+        description: "Delicious fried rice served with chicken",
+        price: 3000,
+        image: "/img/rice.png",
+        quantity: 1,
+      },
+    ];
 
-    setItems((prev) => [...prev, newItem]); 
+    // Add all new items to cart
+    setItems((prev) => [...prev, ...newItems]);
   };
 
   return (
-    <main className="bg-gray-100 flex justify-center items-center lg:h-screen  min-h-[300px] p-6">
-      <div className="max-w-5xl mx-auto p-4">
+    <main className="bg-gray-100 flex justify-center items-start lg:min-h-screen min-h-[400px] p-6">
+      <div className="max-w-5xl w-full mx-auto p-4">
         
         <h1 className="text-xl font-bold mb-4">
           Your Cart
@@ -91,14 +103,13 @@ export default function Home() {
 
         <div className="space-y-4">
           {items.map((item) => (
-           <CartItem
-             key={item.id}
-             item={item}
-             onIncrease={increase}
-             onDecrease={decrease}
-             onRemove={remove}
-           />
-
+            <CartItem
+              key={item.id}
+              item={item}
+              onIncrease={increase}
+              onDecrease={decrease}
+              onRemove={remove}
+            />
           ))}
         </div>
 
