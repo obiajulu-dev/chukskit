@@ -58,7 +58,7 @@ const Main = () => {
                 We bring the rich culinary heritage of Nigeria right to your doorstep.
               </p>
 
-              <div className="grid grid-cols-1 lg:grid-cols-1 lg:gap-4 flex-wrap">
+              <div className="grid grid-cols-1 lg:grid-cols-1 lg:gap-4 gap-2 flex-wrap">
                  <div className="flex items-start gap-1 p-1 bg-[#F3F4F6] md:bg-white rounded-md">
                     <div className="bg-orange-100 p-3 items-center  rounded-xl">
                         <Reserve size="20" color="#FF8A65" className=""/>
