@@ -1,4 +1,5 @@
 import { Reserve, TruckFast } from "iconsax-react";
+import Link from "next/link";
 
 const Main = () => {
   return (
@@ -89,9 +90,11 @@ const Main = () => {
               </div>
 
               <div className="flex flex-col gap-4">
-                <button  className="bg-[#FF7A18] py-3 rounded-2xl text-white font-semibold">
-                <a href="home">  Start Your Order</a>
+               <Link href="home">
+                <button className="bg-[#FF7A18] py-3 rounded-2xl text-white font-semibold w-full">
+                  Start Your Order
                 </button>
+              </Link>
 
                 <button className="border border-[#1E88E5] py-3 rounded-2xl text-[#1E88E5] font-semibold">
                   Learn More About Us

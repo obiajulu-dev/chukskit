@@ -1,6 +1,6 @@
 'use client'
 import { useRef, useState }from 'react';
-import {BinanceCoin } from 'iconsax-react'
+import Link from "next/link";
 
 const Topnav=()=>{
 
@@ -35,15 +35,17 @@ const Topnav=()=>{
                     {/* Menu Item */}
                     <div className="hidden justify-between gap-10 xl:gap-36 lg:flex text-center lg:items-center text-black text-base">
                         <a href="#" className="text-[#FF7A18] text-[16px]  ">Home</a>
-                        <a href="explore" className="hover:text-white text-[16px]   ">Explore </a>
-                        <a href="cart" className="hover:text-white min-w-20 text-[16px]   ">My Orders </a>
-                        <a href="#" className="hover:text-white  text-[16px] ">Account</a>
+                        <a href="explore" className="hover:[#FF7A18] text-[16px]   ">Explore </a>
+                        <a href="cart" className="hover:[#FF7A18] min-w-20 text-[16px]   ">My Orders </a>
+                        <a href="#" className="hover:[#FF7A18]  text-[16px] ">Account</a>
                     </div>
 
                     <div>
+                        <Link href="signinn">
                         <button className="border hidden lg:flex bg-[#FF7A18] text-center items-center text-white px-10 py-3 w-32 rounded-md">
-                         <a href="signinn">Login</a>
+                         Login
                        </button>
+                       </Link>
                     </div>
                     {/* Hamburger Icon */}
                     <div ref={hamburger} className=" hamburger lg:hidden" onClick={handleHamburgerMenu}>
