@@ -1,4 +1,5 @@
 import { Reserve, TruckFast } from "iconsax-react";
+import Link from 'next/link'
 
 const Signup = () => {
   return (
@@ -97,9 +98,11 @@ const Signup = () => {
 
             <div>
                     <div className="w-full flex flex-col pb-1 ">
-                        <button  className="w-full bg-[#FF7A18] rounded-md p-3 text-center flex items-center justify-center text-white">
-                           <a href='/signinn' className='text-[16px]'>Continue </a>
+                      <Link href='signinn'>
+                        <button  className="w-full bg-[#FF7A18] rounded-md p-3 text-[16px] text-center flex items-center justify-center text-white">
+                            Continue
                         </button>
+                      </Link>
                     
                         <button  className="w-full bg-[#F3F4F6] pt-3 rounded-md p-2 text-center flex items-center justify-center text-black">
                            <a href='#' className='text-[16px]'>or continue with </a>
