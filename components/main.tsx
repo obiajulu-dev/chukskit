@@ -89,7 +89,7 @@ const Main = () => {
               </div>
 
               <div className="flex flex-col gap-4">
-                <button className="bg-[#FF7A18] py-3 rounded-2xl text-white font-semibold">
+                <button  className="bg-[#FF7A18] py-3 rounded-2xl text-white font-semibold">
                 <a href="home">  Start Your Order</a>
                 </button>
 

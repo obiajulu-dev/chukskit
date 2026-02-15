@@ -1,7 +1,8 @@
 
 
-import Cart from "@/components/cart"
+import Cart from "@/components/myorder/cart"
 import Footer from "@/components/footer"
+import Topnavor from "@/components/myorder/topnavor"
 import { Metadata } from "next"
 
 export const metadata : Metadata = {
@@ -17,6 +18,7 @@ export const metadata : Metadata = {
 export default function Home() {
     return (
         <main>
+            <Topnavor/>
             <Cart/>
             <Footer/>
 

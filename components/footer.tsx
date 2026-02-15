@@ -18,19 +18,19 @@ import { Instagram, Facebook, Xrp, DocumentText, Whatsapp } from "iconsax-react"
 
                     <div className="text-left text-[20px] space-y-2">
                         <h2 className="font-bold">Quick Links</h2>
-                        <ul className="space-y-3">
-                            <li className="text-[12px]">Home</li>
-                            <li className="text-[12px]">Explore</li>
-                            <li className="text-[12px]">My Order</li>
-                            <li className="text-[12px]">Account</li>
-                            <li className="text-[12px]">Contact</li>
+                        <ul className="space-y-3 flex-col flex">
+                            <a href="home"  className="text-[12px]">Home</a>
+                            <a href="explore"  className="text-[12px]">Explore</a>
+                            <a href="cart"  className="text-[12px]"> My Order</a>
+                            <a href="#"  className="text-[12px]">Account</a>
+                            <a href="#"  className="text-[12px]">Contact</a>
                          </ul>
                     </div> 
 
                     <div className="text-left text-[20px] space-y-2">
                         <h2 className="font-bold text-[20px]">Contact Us</h2>
                         <ul className="space-y-3 flex-col flex w-full">
-                            <a href="/aboutus" className="text-[12px]">+234 801 234 5678</a>
+                            <a href="#" className="text-[12px]">+234 801 234 5678</a>
                             <a className="text-[12px]">hello@chukskitchen.com</a>
                             <a className="text-[12px]">123 Taste Blvd, Lagos, Nigeria</a>
 

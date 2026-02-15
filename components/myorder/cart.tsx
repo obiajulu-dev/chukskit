@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import CartItem from "./foods";
-import { CartItemType } from "./card";
+import { CartItemType } from "../card";
 
 export default function Home() {
   const [items, setItems] = useState<CartItemType[]>([
@@ -94,7 +94,7 @@ export default function Home() {
   };
 
   return (
-    <main className="bg-gray-100 flex justify-center items-start lg:min-h-screen min-h-[400px] p-6">
+    <main className="bg-gray-100 flex justify-center items-center lg:min-h-screen min-h-[400px] p-6">
       <div className="max-w-5xl w-full mx-auto p-4">
         
         <h1 className="text-xl font-bold mb-4">

@@ -1,6 +1,6 @@
 "use client";
 
-import { CartItemType } from "./card";
+import { CartItemType } from "../card";
 
 interface Props {
   item: CartItemType;
