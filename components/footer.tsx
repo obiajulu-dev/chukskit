@@ -63,7 +63,7 @@ import { Instagram, Facebook, Xrp, DocumentText, Whatsapp } from "iconsax-react"
                </div>
 
                                  <div className=" px-8 pb-8 text-left">
-                          <a className="text-xs md:text-xs e text-white" href=""> © 2020 Lift Media. All rights reserved.</a>
+                          <a className="text-xs md:text-xs e text-white" href=""> © 2026 Lift Media. All rights reserved.</a>
                     </div>
 
                  

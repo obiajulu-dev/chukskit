@@ -3,26 +3,27 @@ import Link from "next/link";
 
 const Main = () => {
   return (
-    <section id="hero" className="min-h-screen w-full text-black ">
+    <section id="hero" className="md:min-h-screen w-full text-black overflow-x-hidden">
       
-      <div className="flex-col flex md:flex-row   w-full min-h-screen    ">
+      <div className="flex-col flex md:flex-row w-full md:min-h-screen">
 
         {/* LEFT IMAGE */}
-        <div className="relative w-1/2 hidden md:block">
+        <div className="relative md:w-1/2 hidden md:block h-screen">
           <img
             alt="mainimg"
             src="./img/main.png"
-            className="object-cover w-full h-screen"
+            className="object-cover w-full h-full"
           />
         </div>
 
-         <div className="relative w-full inline md:hidden  ">
+        <div className="relative w-full md:hidden">
           <img
             alt="mainimg"
             src="./img/main mo.png"
-            className=" w-full "
+            className="w-full"
           />
         </div>
+
             <div  className="flex justify-end p-3">
             <button className="border md:hidden w-32 inline border-[#1E88E5] text-[#1E88E5] px-8 py-3 rounded-xl">
                <a href="signinn">Sign in</a>
@@ -30,88 +31,78 @@ const Main = () => {
             </div>
 
         {/* RIGHT CONTENT */}
-        <div className="w-full md:w-1/2 flex flex-col justify-between px-3 mb:px-0 py-6">
+        <div className="w-full md:w-1/2 flex flex-col px-4 md:px-6 lg:px-8 xl:px-12 py-6  md:py-8 md:min-h-screen">
+          
+          {/* Top Nav */}
+          <div className="flex justify-between items-center mb-6 md:mb-8">
+            <img
+              alt="logo"
+              src="./img/Chuks Kitchen.png"
+              className="h-8 md:h-9 lg:h-10 w-auto"
+            />
+            
+            <button className="border hidden md:block border-[#1E88E5] text-[#1E88E5] px-6 lg:px-8 py-2 rounded-lg hover:bg-[#1E88E5] hover:text-white transition-colors">
+              <a href="signinn">Sign in</a>
+            </button>
+          </div>
 
-          {/* Constrained content wrapper */}
-          <div className="w-full md:container md:mx-auto xl:px-28 flex flex-col h-full justify-between">
+          {/* Main Content */}
+          <div className="flex-1 flex flex-col justify-center max-w-2xl">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-[35px] font-bold mb-4">
+              Your Authentic Taste  of <br/> Nigeria
+            </h1>
 
-            {/* Top Nav */}
-            <div className="flex justify-center md:justify-between items-center">
-              <img
-                alt="logo"
-                src="./img/Chuks Kitchen.png"
-                className="xl:h-10 w-auto"
-              />
+            <p className="text-sm sm:text-base lg:text-lg text-gray-600 mb-6">
+              Experience homemade flavors delivered fresh to your desk or home.
+              We bring the rich culinary heritage of Nigeria right to your doorstep.
+            </p>
 
-              <button className="border hidden md:inline border-[#1E88E5] text-[#1E88E5] px-8 xl:py-3 lg:py-2 py-1 rounded-md">
-                <a href="signinn">Sign in</a>
-              </button>
-            </div>
-
-            {/* Middle Content */}
-            <div className="flex flex-col gap-5 my-3 xl:my-10 mx-1">
-              <h1 className="xl:text-[35px] text-[24px] font-bold">
-                Your Authentic Taste of Nigeria
-              </h1>
-
-              <p className='lg:text-[16px] text-[14px] xl:text-[18px]'>
-                Experience homemade flavors delivered fresh to your desk or home.
-                We bring the rich culinary heritage of Nigeria right to your doorstep.
-              </p>
-
-              <div className="grid grid-cols-1 lg:grid-cols-1 lg:gap-4 gap-2 flex-wrap">
-                 <div className="flex items-start gap-1 p-1 bg-[#F3F4F6] md:bg-white rounded-md">
-                    <div className="bg-orange-100 p-3 items-center  rounded-xl">
-                        <Reserve size="20" color="#FF8A65" className=""/>
-                    </div>
-                    <div className="p-3 text-base font-semibold ">
-                          <p>Freshly Prepared</p>
-                    </div>
-                 </div>
-
-                 <div className="flex items-start gap-1 p-1 bg-[#F3F4F6] md:bg-white lg:min-w-70 rounded-md">
-                    <div className="bg-orange-100 p-3 items-center  rounded-xl">
-                        <Reserve size="20" color="#FF8A65" className=""/>
-                    </div>
-                    <div className="p-3 font-semibold">
-                          <p>Support Local Business</p>
-                    </div>
-                 </div>
-
-                 <div className="flex items-start gap-1 p-1 bg-[#F3F4F6] md:bg-white min-w-70 rounded-md">
-                    <div className="bg-orange-100 p-3 items-center rounded-xl">
-                        <TruckFast size="20" color="#FF8A65" className=""/>
-                    </div>
-                    <div className="p-3 font-semibold">
-                          <p>Fast & Reliable Delivery</p>
-                    </div>
-                 </div>
-                   
+            {/* Features Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-3 mb-6">
+              <div className="flex items-center gap-2 p-2 bg-gray-50 rounded-lg">
+                <div className="bg-orange-100 p-2 rounded-lg flex-shrink-0">
+                  <Reserve size="20" color="#FF8A65" />
+                </div>
+                <span className="text-sm font-medium">Freshly Prepared</span>
               </div>
 
-              <div className="flex flex-col gap-4">
-               <Link href="home">
-                <button className="bg-[#FF7A18] py-3 rounded-2xl text-white font-semibold w-full">
+              <div className="flex items-center gap-2 p-2 bg-gray-50 rounded-lg">
+                <div className="bg-orange-100 p-2 rounded-lg flex-shrink-0">
+                  <Reserve size="20" color="#FF8A65" />
+                </div>
+                <span className="text-sm font-medium">Support Local Business</span>
+              </div>
+
+              <div className="flex items-center gap-2 p-2 bg-gray-50 rounded-lg sm:col-span-2 lg:col-span-1">
+                <div className="bg-orange-100 p-2 rounded-lg flex-shrink-0">
+                  <TruckFast size="20" color="#FF8A65" />
+                </div>
+                <span className="text-sm font-medium">Fast & Reliable Delivery</span>
+              </div>
+            </div>
+
+            {/* Buttons */}
+            <div className="flex flex-col w-full  gap-3 mb-8">
+              <Link href="home" className="flex-1">
+                <button className="w-full bg-[#FF7A18] hover:bg-[#e6690e] py-3 rounded-xl text-white font-semibold transition-colors">
                   Start Your Order
                 </button>
-              </Link>
+              </Link> 
 
-                <button className="border border-[#1E88E5] py-3 rounded-2xl text-[#1E88E5] font-semibold">
-                  Learn More About Us
-                </button>
-              </div>
+              <button className="flex-1 border border-[#1E88E5] hover:bg-[#1E88E5] hover:text-white py-3 rounded-xl text-[#1E88E5] font-semibold transition-colors">
+                Learn More About Us
+              </button>
             </div>
-
-            {/* Footer */}
-            <div className="lg:text-sm text-xs lg:gap-5 gap-2 hidden md:flex justify-center text-center text-gray-500">
-              <p>2024 Chucks Kitchen</p> 
-              <a className="text-[#1E88E5]">Privacy Policy</a>
-              <a className="text-[#1E88E5]">Terms of Services</a>
-            </div>
-
           </div>
-        </div>
 
+          {/* Footer */}
+          <div className="flex flex-wrap justify-center gap-4 md:gap-5 text-xs lg:text-sm text-gray-500 mt-auto pt-4">
+            <p>2026 Chucks Kitchen</p>
+            <a href="#" className="text-[#1E88E5] hover:underline">Privacy Policy</a>
+            <a href="#" className="text-[#1E88E5] hover:underline">Terms of Services</a>
+          </div>
+
+        </div>
       </div>
     </section>
   );
