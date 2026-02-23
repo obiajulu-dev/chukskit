@@ -27,7 +27,7 @@ const Topnavex=()=>{
 
                     {/* Logo */}
                     <div className='text-white flex justify-around '>
-                       <img alt="devy" src='./img/Chuks Kitchen.png' className='  '></img> <h1 className='py-5 hidden tablet:flex'></h1>
+                       <img alt="logo" src='./img/Chuks Kitchen.png' className='  '></img> <h1 className='py-5 hidden tablet:flex'></h1>
                     </div>
 
 

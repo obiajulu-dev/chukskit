@@ -16,7 +16,7 @@ const Foodde = () => {
         {/* RIGHT CONTENT */}
         <div className="w-full md:w-1/2 flex flex-col justify-between px-3 md:bg-[#F3F4F6] bg-white xl:px-28 md:py-8 py-6">
           {/* Constrained content wrapper */}
-          <div className="w-full md:container md:mx-auto lg:px-10 px-5 flex flex-col bg-white gap-5 h-full py-10 xl:py-16 xl:justify-center max-w-md max-h-[90vh] xl:max-h-full overflow-y-auto xl:overflow-y-hidden ">
+          <div className="w-full md:container md:mx-auto lg:px-10 px-5 flex flex-col bg-white gap-5 h-full py-10 xl:py-16  max-w-md max-h-[90vh]  overflow-y-auto  ">
             <div>
               <h1 className="lg:text-[32px] text-[20px] font-bold">Jollof Rice with Fried Chicken</h1>
               <p className="lg:text-[24px] text-[17px] text-[#FF7A18]">₦2,800</p>

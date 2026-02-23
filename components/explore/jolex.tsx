@@ -1,8 +1,9 @@
 import { AddCircle } from "iconsax-react";
+import Link from "next/link";
 const Jolex=()=>{
 
   return(
-      <section id='chef' className="  bg-[#F3F4F6] w-full h-full text-black  flex flex-col md:flex">
+      <section id='jolex' className="  bg-[#F3F4F6] w-full h-full text-black  flex flex-col md:flex">
             
             <div className="md:mx-auto md:container space-x-5 flex justify-between ">
                <div className="relative w-full  md:block py-8">
@@ -21,7 +22,7 @@ const Jolex=()=>{
 
                         <div className='w-full flex justify-between items-center px-3 md:py-2'>
                             <h1 className="text-[#FF7A18] text-[16px] font-medium">₦3,500</h1>
-                            <AddCircle  size="32" color="#FF7A18" variant="Bold"/>
+                        <Link href='cart'><AddCircle  size="32" color="#FF7A18" variant="Bold"/></Link>
                         </div>
                     </div>
 
@@ -40,7 +41,7 @@ const Jolex=()=>{
 
                         <div className='w-full flex justify-between items-center px-3 md:py-2'>
                             <h1 className="text-[#FF7A18] text-[16px] font-medium">₦3,500</h1>
-                            <AddCircle  size="32" color="#FF7A18" variant="Bold"/>
+                        <Link href='cart'><AddCircle  size="32" color="#FF7A18" variant="Bold"/></Link>
                         </div>
                     </div>
 
@@ -59,7 +60,7 @@ const Jolex=()=>{
 
                         <div className='w-full flex justify-between items-center px-3 md:py-2'>
                             <h1 className="text-[#FF7A18] text-[16px] font-medium">₦3,500</h1>
-                            <AddCircle  size="32" color="#FF7A18" variant="Bold"/>
+                        <Link href='cart'><AddCircle  size="32" color="#FF7A18" variant="Bold"/></Link>
                         </div>
                     </div>
 

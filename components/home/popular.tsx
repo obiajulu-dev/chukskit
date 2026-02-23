@@ -16,41 +16,44 @@ const Popular=()=>{
                        <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Jollof Delights</p>
                    </div></Link>
 
-
+                    <Link href='foodde'>
                     <div className="flex-col bg-white rounded-xl">
                        <div>
                            <img alt="mainimg"src="./img/swallo.png" className="w-full"/>
                        </div>
                        <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Swallow & Soups</p>
-                   </div>
+                   </div></Link>
 
-                    <div className="flex-col bg-white rounded-xl">
+                    <Link href='foodde'><div className="flex-col bg-white rounded-xl">
                        <div>
                            <img alt="mainimg"src="./img/meat.png" className="w-full"/>
                        </div>
                        <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Grills & BBQ</p>
-                   </div>
+                   </div></Link>
+ 
 
-                    <div className="hidden md:flex md:flex-col bg-white rounded-xl">
+                     <Link href='foodde'>
+                    <div className="flex-col bg-white rounded-xl">
+                       <div>
+                           <img alt="mainimg"src="./img/swallo.png" className="w-full"/>
+                       </div>
+                       <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Swallow & Soups</p>
+                   </div></Link>        
+
+                    <Link href='foodde'><div className="hidden md:flex md:flex-col bg-white rounded-xl">
                        <div>
                            <img alt="mainimg"src="./img/chi.png" className="w-full"/>
                        </div>
                        <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Sweet Treats</p>
-                   </div>
+                   </div></Link>
 
-                    <div className="hidden md:flex md:flex-col bg-white rounded-xl">
+                    <Link href='foodde'><div className="hidden md:flex md:flex-col bg-white rounded-xl">
                        <div>
                            <img alt="mainimg"src="./img/egusi.png" className="w-full"/>
                        </div>
                        <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Swallow & Soups</p>
-                   </div>
+                   </div></Link>
 
-                    <div className="hidden md:flex md:flex-col bg-white rounded-xl">
-                       <div>
-                           <img alt="mainimg"src="./img/rice.png" className="w-full"/>
-                       </div>
-                       <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Jollof Delights</p>
-                   </div>
 
 
 
