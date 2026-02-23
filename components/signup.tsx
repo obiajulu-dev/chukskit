@@ -125,7 +125,7 @@ const Signup = () => {
                 <button className="w-full bg-[white] gap-2   rounded-md p-1 text-center flex items-center justify-center text-black">
                <img
                 alt="logo"
-                src="./img/facebook.png"
+                src="./img/faceb.png"
                 className="w-[]"
               />
                   <a href='' className='text-sm'> Continue with Facebook </a>
