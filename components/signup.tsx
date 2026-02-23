@@ -112,14 +112,25 @@ const Signup = () => {
             </div>
 
             <div>
-                    <div className="w-full flex flex-col gap-5 ">
-                        <button  className="w-full bg-[white]  rounded-md p-1 text-center flex items-center justify-center text-black">
-                           <a href='' className='text-sm'> Continue with Google </a>
-                        </button>
-                        <button  className="w-full bg-[white]  rounded-md p-1 text-center flex items-center justify-center text-black">
-                           <a href='' className='text-sm'> Continue with Facebook </a>
-                        </button>
-                    </div>
+              <div className="w-full flex flex-col gap-3 ">
+                <button className="w-full bg-[white]  rounded-md p-2 gap-2   text-center flex items-center justify-center text-black">
+               <img
+                alt="logo"
+                src="./img/go.png"
+                className="w-[]"
+              />
+                  <a href='' className='text-sm'> Continue with Google </a>
+                </button>
+
+                <button className="w-full bg-[white] gap-2   rounded-md p-1 text-center flex items-center justify-center text-black">
+               <img
+                alt="logo"
+                src="./img/facebook.png"
+                className="w-[]"
+              />
+                  <a href='' className='text-sm'> Continue with Facebook </a>
+                </button>
+              </div>
             </div>
 
             

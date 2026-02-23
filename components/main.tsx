@@ -4,7 +4,7 @@ import Link from "next/link";
 const Main = () => {
   return (
     <section id="hero" className="md:min-h-screen w-full text-black overflow-x-hidden">
-      
+
       <div className="flex-col flex md:flex-row w-full md:min-h-screen">
 
         {/* LEFT IMAGE */}
@@ -24,15 +24,15 @@ const Main = () => {
           />
         </div>
 
-            <div  className="flex justify-end p-3">
-            <button className="border md:hidden w-32 inline border-[#1E88E5] text-[#1E88E5] px-8 py-3 rounded-xl">
-               <a href="signinn">Sign in</a>
-            </button>
-            </div>
+        <div className="flex justify-end p-3">
+          <button className="border md:hidden w-32 inline border-[#1E88E5] text-[#1E88E5] px-8 py-3 rounded-xl">
+            <a href="signinn">Sign in</a>
+          </button>
+        </div>
 
         {/* RIGHT CONTENT */}
         <div className="w-full md:w-1/2 flex flex-col px-4 md:px-6 lg:px-8 xl:px-12 py-6  md:py-8 md:min-h-screen">
-          
+
           {/* Top Nav */}
           <div className="flex justify-between items-center mb-6 md:mb-8">
             <img
@@ -40,7 +40,7 @@ const Main = () => {
               src="./img/Chuks Kitchen.png"
               className="h-8 md:h-9 lg:h-10 w-auto"
             />
-            
+
             <button className="border hidden md:block border-[#1E88E5] text-[#1E88E5] px-6 lg:px-8 py-2 rounded-lg hover:bg-[#1E88E5] hover:text-white transition-colors">
               <a href="signinn">Sign in</a>
             </button>
@@ -49,7 +49,7 @@ const Main = () => {
           {/* Main Content */}
           <div className="flex-1 flex flex-col justify-center max-w-2xl">
             <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-[35px] font-bold mb-4">
-              Your Authentic Taste  of <br/> Nigeria
+              Your Authentic Taste  of <br /> Nigeria
             </h1>
 
             <p className="text-sm sm:text-base lg:text-lg text-gray-600 mb-6">
@@ -87,7 +87,7 @@ const Main = () => {
                 <button className="w-full bg-[#FF7A18] hover:bg-[#e6690e] py-3 rounded-xl text-white font-semibold transition-colors">
                   Start Your Order
                 </button>
-              </Link> 
+              </Link>
 
               <button className="flex-1 border border-[#1E88E5] hover:bg-[#1E88E5] hover:text-white py-3 rounded-xl text-[#1E88E5] font-semibold transition-colors">
                 Learn More About Us
