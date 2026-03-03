@@ -1,36 +1,135 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍽️ Chuks Kitchen
 
-## Getting Started
+Chuks Kitchen is a modern food ordering web application built with **Next.js** and **Tailwind CSS**.  
+It allows users to explore meals, view detailed food information, manage carts, and place orders through a seamless and responsive interface.  
+The application is structured using the modern App Router architecture and follows scalable frontend engineering practices.
 
-First, run the development server:
+---
 
+## 🚀 Tech Stack
+
+- **Framework:** Next.js  
+- **Styling:** Tailwind CSS  
+- **Language:** TypeScript  
+- **Routing:** Next.js App Router  
+- **Deployment Ready:** Optimized for Vercel  
+
+---
+
+## 🌐 Live Project
+
+Live demo: [https://chuckskit.vercel.app](https://chuckskit.vercel.app)
+
+---
+
+## 🖥️ Active Pages
+
+Chuks Kitchen currently has **5 main pages**:
+
+1. **Home** – Dashboard showing available meals and navigation to other sections  
+2. **Explore** – Discovery page to browse and search meals  
+3. **My Order** – Displays user order history  
+4. **Account** – User account management (Sign In / Sign Up / Profile)  
+5. **Contact** – Contact and information page  
+
+---
+
+## 🎯 Active Buttons / Actions
+
+The site has **7 main interactive buttons / links**:
+
+- **Home** – Navigation link to Dashboard  
+- **Explore** – Navigation link to Explore page  
+- **My Order** – Navigation link to Orders page  
+- **Account** – Navigation link to account/profile  
+- **Contact** – Navigation link to Contact page  
+- **Start Your Order** – Main call-to-action button on landing page  
+- **Learn More About Us** – Secondary CTA button  
+
+---
+
+## ✨ Key Features
+
+- Modern, responsive UI built with Tailwind CSS  
+- Fully mobile-friendly (responsive design)  
+- Clean and scalable frontend architecture  
+- Authentication flow (Sign In / Sign Up)  
+- Browse meals and detailed food information  
+- Order history and cart management  
+- Interactive buttons and call-to-action flows  
+
+---
+
+## 🛠️ How to Run the Project Locally
+
+### 1️⃣ Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/chuks-kitchen.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Navigate to the Project Folder
+```bash
+cd chuks-kitchen
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3️⃣ Install Dependencies
+Using npm:
+```bash
+npm install
+```
+Or using yarn:
+```bash
+yarn install
+```
+Or using pnpm:
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4️⃣ Start the Development Server
+```bash
+npm run dev
+```
 
-## Learn More
+### 5️⃣ Open in Browser
+```
+http://localhost:3000
+```
+The app will auto-reload on code changes.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Build for Production
+```bash
+npm run build
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📈 Future Enhancements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Payment Gateway Integration  
+- Admin Dashboard  
+- Real-time Order Updates  
+- Backend API Integration (Node.js / Express / MongoDB)  
+- Role-based Authentication  
+- Push Notifications  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🌍 Deployment
+
+Chuks Kitchen is deployed on **Vercel**:
+
+[https://chuckskit.vercel.app](https://chuckskit.vercel.app)
+
+---
+
+## 👨🏽‍💻 Author
+
+Built with dedication by **Obiajulu-dev**  
+Frontend Software Engineer | Next.js Developer  
+
+---
+
