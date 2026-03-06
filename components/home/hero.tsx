@@ -1,3 +1,5 @@
+import ScrollAnimatel from '../cards/AnimatedCardl'
+
 const Hero = () => {
   return (
     <section
@@ -16,25 +18,27 @@ const Hero = () => {
 
       {/* Content Wrapper */}
       <div className="relative z-10 container mx-auto h-full flex items-center px-8 md:px-12">
-        <div className="max-w-2xl space-y-6">
-          <h1 className="text-4xl font-bold">
-            The Heart of Nigerian Home <br className='hidden md:flex' /> Cooking
-          </h1>
+        <ScrollAnimatel delay={150} direction="left">
+          <div className="max-w-2xl space-y-6">
+            <h1 className="text-4xl font-bold">
+              The Heart of Nigerian Home <br className='hidden md:flex' /> Cooking
+            </h1>
 
-          <p className="text-xl font-semibold">
-            Handcrafted with passion, delivered with care.
-          </p>
+            <p className="text-xl font-semibold">
+              Handcrafted with passion, delivered with care.
+            </p>
 
-          <button className="bg-[#FF7A18] px-8 py-3 rounded-md text-sm font-semibold">
-            Discover What's New
-          </button>
-        </div>
+            <button className="bg-[#FF7A18] px-8 py-3 rounded-md text-sm font-semibold">
+              Discover What's New
+            </button>
+          </div>
+        </ScrollAnimatel>
       </div>
 
       {/*  FLOATING SEARCH  */}
       <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 w-full max-w-2xl px-4 z-20">
         <div className="bg-white border-2 border-emerald-500 rounded-md shadow-2xl flex items-center px-4 py-4">
-          
+
           <svg
             className="w-5 h-5 text-gray-400 mr-3"
             fill="none"

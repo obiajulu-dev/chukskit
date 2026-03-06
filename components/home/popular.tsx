@@ -1,72 +1,84 @@
 import Link from "next/link";
+import ScrollAnimatel from '../cards/AnimatedCardl'
 
-const Popular=()=>{
+const Popular = () => {
 
-  return(
-      <section id='hero' className="  bg-[#F3F4F6] w-full h-full text-black  flex flex-col md:flex">
-            
+    return (
+        <section id='hero' className="  bg-[#F3F4F6] w-full h-full text-black  flex flex-col md:flex">
+
             <div className="md:mx-auto md:container space-x-5 flex justify-between ">
-               <div className="relative w-full  md:block py-16">
-                <h1 className="text-[32px] font-bold  text-center justify-center">Popular Categories</h1>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-10 flex-wrap px-6 md:px-10 py-3">
-                    <Link href='foodde'><div className="flex-col bg-white rounded-xl">
-                       <div>
-                           <img alt="mainimg"src="./img/rice.png" className="w-full"/>
-                       </div>
-                       <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Jollof Delights</p>
-                   </div></Link>
+                <div className="relative w-full  md:block py-16">
+                    <h1 className="text-[32px] font-bold  text-center justify-center">Popular Categories</h1>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-10 flex-wrap px-6 md:px-10 py-3">
+                        <ScrollAnimatel delay={150} direction="left">
+                            <Link href='foodde'><div className="flex-col bg-white rounded-xl">
+                                <div>
+                                    <img alt="mainimg" src="./img/rice.png" className="w-full" />
+                                </div>
+                                <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Jollof Delights</p>
+                            </div></Link>
+                        </ScrollAnimatel>
 
-                    <Link href='foodde'>
-                    <div className="flex-col bg-white rounded-xl">
-                       <div>
-                           <img alt="mainimg"src="./img/swallo.png" className="w-full"/>
-                       </div>
-                       <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Swallow & Soups</p>
-                   </div></Link>
+                        <ScrollAnimatel delay={150} direction="up">
+                            <Link href='foodde'>
+                                <div className="flex-col bg-white rounded-xl">
+                                    <div>
+                                        <img alt="mainimg" src="./img/swallo.png" className="w-full" />
+                                    </div>
+                                    <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Swallow & Soups</p>
+                                </div></Link>
+                        </ScrollAnimatel>
 
-                    <Link href='foodde'><div className="flex-col bg-white rounded-xl">
-                       <div>
-                           <img alt="mainimg"src="./img/meat.png" className="w-full"/>
-                       </div>
-                       <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Grills & BBQ</p>
-                   </div></Link>
- 
+                        <ScrollAnimatel delay={150} direction="right">
+                            <Link href='foodde'><div className="flex-col bg-white rounded-xl">
+                                <div>
+                                    <img alt="mainimg" src="./img/meat.png" className="w-full" />
+                                </div>
+                                <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Grills & BBQ</p>
+                            </div></Link>
+                        </ScrollAnimatel>
 
-                     <Link href='foodde'>
-                    <div className="flex-col bg-white rounded-xl">
-                       <div>
-                           <img alt="mainimg"src="./img/swallo.png" className="w-full"/>
-                       </div>
-                       <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Swallow & Soups</p>
-                   </div></Link>        
-
-                    <Link href='foodde'><div className="hidden md:flex md:flex-col bg-white rounded-xl">
-                       <div>
-                           <img alt="mainimg"src="./img/chi.png" className="w-full"/>
-                       </div>
-                       <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Sweet Treats</p>
-                   </div></Link>
-
-                    <Link href='foodde'><div className="hidden md:flex md:flex-col bg-white rounded-xl">
-                       <div>
-                           <img alt="mainimg"src="./img/egusi.png" className="w-full"/>
-                       </div>
-                       <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Swallow & Soups</p>
-                   </div></Link>
+                        <ScrollAnimatel delay={150} direction="right">
+                            <Link href='foodde'>
+                                <div className="flex-col bg-white rounded-xl">
+                                    <div>
+                                        <img alt="mainimg" src="./img/swallo.png" className="w-full" />
+                                    </div>
+                                    <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Swallow & Soups</p>
+                                </div></Link>
+                        </ScrollAnimatel>
 
 
+                        <ScrollAnimatel delay={150} direction="down">
+                            <Link href='foodde'><div className="hidden md:flex md:flex-col bg-white rounded-xl">
+                                <div>
+                                    <img alt="mainimg" src="./img/chi.png" className="w-full" />
+                                </div>
+                                <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Sweet Treats</p>
+                            </div></Link>
+                        </ScrollAnimatel>
+
+                        <ScrollAnimatel delay={150} direction="left">
+                            <Link href='foodde'><div className="hidden md:flex md:flex-col bg-white rounded-xl">
+                                <div>
+                                    <img alt="mainimg" src="./img/egusi.png" className="w-full" />
+                                </div>
+                                <p className="py-10 text-center font-semibold text-[16px] lg:text-[24px] ">Swallow & Soups</p>
+                            </div></Link>
+                        </ScrollAnimatel>
+
+
+
+                    </div>
 
 
                 </div>
 
 
-                </div>
-            
-               
 
-        </div>
-     </section>
-  )
+            </div>
+        </section>
+    )
 }
 
 export default Popular;
