@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 import ScrollAnimatel from '../cards/AnimatedCardl'
 
 const Special = () => {
@@ -7,138 +7,149 @@ const Special = () => {
       <section id='chef' className="  bg-[#F3F4F6] w-full h-full text-black  flex flex-col md:flex">
 
          <div className="md:mx-auto md:container space-x-5 flex justify-between ">
-            <div className="relative w-full  md:block py-16">
-               <h1 className="text-[32px] font-bold  text-center justify-center">Chef's Specials</h1>
-               <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-10 gap-3  flex-wrap px-6 md:px-10 py-3">
-                  <ScrollAnimatel delay={150} direction="left">
-                     <div className="flex-col bg-white rounded-xl pb-5">
-                        <div>
-                           <img alt="mainimg" src="./img/spic.png" className="w-full" />
-                        </div>
+            <ScrollAnimatel delay={250} direction="up">
+               <div className="relative w-full  md:block py-16">
+                  <h1 className="text-[32px] font-bold  text-center justify-center">Chef's Specials</h1>
+                  <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-10 gap-3  flex-wrap px-6 md:px-10 py-3">
+                     <ScrollAnimatel delay={150} direction="left">
+                        <div className="flex-col bg-white rounded-xl pb-5">
+                           <Link href='foodde'>
+                              <div>
+                                 <img alt="mainimg" src="./img/spic.png" className="w-full" />
+                              </div>
+                           </Link>
 
-                        <div className="p-3">
-                           <h1 className='lg:text-[16px] md:text-[14px] font-semibold'>Spicy Tilapia Pepper Soup</h1>
-                           <p className=" text-left font-medium lg:text-[16px] text-[12px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
-                        </div>
+                           <div className="p-3">
+                              <h1 className='lg:text-[16px] md:text-[14px] font-semibold'>Spicy Tilapia Pepper Soup</h1>
+                              <p className=" text-left font-medium lg:text-[16px] text-[12px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
+                           </div>
 
-                        <div className='w-full flex justify-between items-center px-3 py-2'>
-                           <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
-                           <button className=" bg-[#FF7A18] rounded-md p-3 text-center w-[100px] lg:w-[150px] flex items-center justify-center text-white">
-                              <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
-                           </button>
+                           <div className='w-full flex justify-between items-center px-3 py-2'>
+                              <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
+                              <button className=" bg-[#FF7A18] rounded-md p-3 text-center w-[100px] lg:w-[150px] flex items-center justify-center text-white">
+                                 <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
+                              </button>
+                           </div>
                         </div>
-                     </div>
-                  </ScrollAnimatel>
+                     </ScrollAnimatel>
 
-                  <ScrollAnimatel delay={150} direction="up">
-                     <div className="flex-col bg-white rounded-xl pb-5">
-                        <div>
-                           <img alt="mainimg" src="./img/rice.png" className="w-full" />
-                        </div>
+                     <ScrollAnimatel delay={150} direction="up">
+                        <div className="flex-col bg-white rounded-xl pb-5">
+                           <Link href='foodde'>
+                              <div>
+                                 <img alt="mainimg" src="./img/rice.png" className="w-full" />
+                              </div>
+                           </Link>
+                           <div className="p-3">
+                              <h1 className='lg:text-[16px] md:text-[14px] font-semibold'>Jollof Rice & Fried Chicken</h1>
+                              <p className=" text-left font-medium lg:text-[16px] text-[12px] ">Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.</p>
+                           </div>
 
-                        <div className="p-3">
-                           <h1 className='lg:text-[16px] md:text-[14px] font-semibold'>Jollof Rice & Fried Chicken</h1>
-                           <p className=" text-left font-medium lg:text-[16px] text-[12px] ">Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.</p>
+                           <div className='w-full flex justify-between items-center px-3 py-2'>
+                              <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
+                              <button className=" bg-[#FF7A18] rounded-md p-3 text-center  w-[100px] lg:w-[150px] flex items-center justify-center text-white">
+                                 <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
+                              </button>
+                           </div>
                         </div>
+                     </ScrollAnimatel>
 
-                        <div className='w-full flex justify-between items-center px-3 py-2'>
-                           <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
-                           <button className=" bg-[#FF7A18] rounded-md p-3 text-center  w-[100px] lg:w-[150px] flex items-center justify-center text-white">
-                              <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
-                           </button>
-                        </div>
-                     </div>
-                  </ScrollAnimatel>
+                     <ScrollAnimatel delay={150} direction="right">
+                        <div className="flex-col bg-white rounded-xl pb-5">
+                           <Link href='foodde'>
+                              <div>
+                                 <img alt="mainimg" src="./img/egusi.png" className="w-full" />
+                              </div>
+                           </Link>
 
-                  <ScrollAnimatel delay={150} direction="right">
-                     <div className="flex-col bg-white rounded-xl pb-5">
-                        <div>
-                           <img alt="mainimg" src="./img/egusi.png" className="w-full" />
-                        </div>
+                           <div className="p-3">
+                              <h1 className='lg:text-[16px] md:text-[14px] font-semibold'>Egusi Soup & Pounded Yam</h1>
+                              <p className=" text-left font-medium lg:text-[16px] text-[12px] ">Rich and savory Egusi soup with assorted meats, paired with freshly pounded yam. </p>
+                           </div>
 
-                        <div className="p-3">
-                           <h1 className='lg:text-[16px] md:text-[14px] font-semibold'>Egusi Soup & Pounded Yam</h1>
-                           <p className=" text-left font-medium lg:text-[16px] text-[12px] ">Rich and savory Egusi soup with assorted meats, paired with freshly pounded yam. </p>
+                           <div className='w-full flex justify-between items-center px-3 py-2'>
+                              <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
+                              <button className=" bg-[#FF7A18] rounded-md p-3 text-center  w-[100px] lg:w-[150px] flex items-center justify-center text-white">
+                                 <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
+                              </button>
+                           </div>
                         </div>
+                     </ScrollAnimatel>
 
-                        <div className='w-full flex justify-between items-center px-3 py-2'>
-                           <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
-                           <button className=" bg-[#FF7A18] rounded-md p-3 text-center  w-[100px] lg:w-[150px] flex items-center justify-center text-white">
-                              <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
-                           </button>
-                        </div>
-                     </div>
-                  </ScrollAnimatel>
+                     <ScrollAnimatel delay={150} direction="right">
+                        <div className="hidden md:flex md:flex-col bg-white rounded-xl pb-5">
+                           <Link href='foodde'>
+                              <div>
+                                 <img alt="mainimg" src="./img/ricee.png" className="w-full" />
+                              </div>
+                           </Link>
 
-                  <ScrollAnimatel delay={150} direction="right">
-                     <div className="hidden md:flex md:flex-col bg-white rounded-xl pb-5">
-                        <div>
-                           <img alt="mainimg" src="./img/ricee.png" className="w-full" />
-                        </div>
+                           <div className="p-3">
+                              <h1 className='lg:text-[16px] md:text-[14px]  font-semibold'>Jollof Rice & Fried Chicken</h1>
+                              <p className=" text-left font-medium lg:text-[16px] text-[12px] ">Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.</p>
+                           </div>
 
-                        <div className="p-3">
-                           <h1 className='lg:text-[16px] md:text-[14px]  font-semibold'>Jollof Rice & Fried Chicken</h1>
-                           <p className=" text-left font-medium lg:text-[16px] text-[12px] ">Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.</p>
+                           <div className='w-full flex justify-between items-center px-3 py-2'>
+                              <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
+                              <button className=" bg-[#FF7A18] rounded-md p-3 text-center  w-[100px] lg:w-[150px] flex items-center justify-center text-white">
+                                 <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
+                              </button>
+                           </div>
                         </div>
+                     </ScrollAnimatel>
 
-                        <div className='w-full flex justify-between items-center px-3 py-2'>
-                           <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
-                           <button className=" bg-[#FF7A18] rounded-md p-3 text-center  w-[100px] lg:w-[150px] flex items-center justify-center text-white">
-                              <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
-                           </button>
-                        </div>
-                     </div>
-                  </ScrollAnimatel>
+                     <ScrollAnimatel delay={150} direction="down">
+                        <div className="hidden md:flex md:flex-col bg-white rounded-xl pb-5">
+                           <Link href='foodde'>
+                              <div>
+                                 <img alt="mainimg" src="./img/chi.png" className="w-full" />
+                              </div>
+                           </Link>
+                           <div className="p-3">
+                              <h1 className='lg:text-[16px] md:text-[14px]  font-semibold'>Swallow & Soup</h1>
+                              <p className=" text-left font-medium lg:text-[16px] text-[12px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
+                           </div>
 
-                  <ScrollAnimatel delay={150} direction="down">
-                     <div className="hidden md:flex md:flex-col bg-white rounded-xl pb-5">
-                        <div>
-                           <img alt="mainimg" src="./img/chi.png" className="w-full" />
+                           <div className='w-full flex justify-between items-center px-3 py-2'>
+                              <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
+                              <button className=" bg-[#FF7A18] rounded-md p-3 text-center  w-[100px] lg:w-[150px] flex items-center justify-center text-white">
+                                 <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
+                              </button>
+                           </div>
                         </div>
+                     </ScrollAnimatel>
 
-                        <div className="p-3">
-                           <h1 className='lg:text-[16px] md:text-[14px]  font-semibold'>Swallow & Soup</h1>
-                           <p className=" text-left font-medium lg:text-[16px] text-[12px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
-                        </div>
+                     <ScrollAnimatel delay={150} direction="left">
+                        <div className="hidden md:flex md:flex-col bg-white rounded-xl pb-5">
+                           <Link href='foodde'>
+                              <div>
+                                 <img alt="mainimg" src="./img/swallo.png" className="w-full" />
+                              </div>
+                           </Link>
 
-                        <div className='w-full flex justify-between items-center px-3 py-2'>
-                           <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
-                           <button className=" bg-[#FF7A18] rounded-md p-3 text-center  w-[100px] lg:w-[150px] flex items-center justify-center text-white">
-                              <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
-                           </button>
-                        </div>
-                     </div>
-                  </ScrollAnimatel>
+                           <div className="p-3">
+                              <h1 className='lg:text-[16px] md:text-[14px]  font-semibold'>Swallow & Soup</h1>
+                              <p className=" text-left font-medium lg:text-[16px] text-[12px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
+                           </div>
 
-                  <ScrollAnimatel delay={150} direction="left">
-                     <div className="hidden md:flex md:flex-col bg-white rounded-xl pb-5">
-                        <div>
-                           <img alt="mainimg" src="./img/swallo.png" className="w-full" />
+                           <div className='w-full flex justify-between items-center px-3 py-2'>
+                              <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
+                              <button className=" bg-[#FF7A18] rounded-md p-3 text-center  w-[100px] lg:w-[150px] flex items-center justify-center text-white">
+                                 <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
+                              </button>
+                           </div>
                         </div>
+                     </ScrollAnimatel>
 
-                        <div className="p-3">
-                           <h1 className='lg:text-[16px] md:text-[14px]  font-semibold'>Swallow & Soup</h1>
-                           <p className=" text-left font-medium lg:text-[16px] text-[12px] ">A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.</p>
-                        </div>
+                  </div>
 
-                        <div className='w-full flex justify-between items-center px-3 py-2'>
-                           <h1 className="text-[#FF7A18] lg:text-[14px] text-[12px] font-bold">₦3,500</h1>
-                           <button className=" bg-[#FF7A18] rounded-md p-3 text-center  w-[100px] lg:w-[150px] flex items-center justify-center text-white">
-                              <a href='cart' className='lg:text-[14px] text-[12px]'>Add to cart </a>
-                           </button>
-                        </div>
-                     </div>
-                  </ScrollAnimatel>
 
                </div>
 
 
-            </div>
-
-
-
-         </div>
-      </section>
+            </ScrollAnimatel >
+         </div >
+      </section >
    )
 }
 

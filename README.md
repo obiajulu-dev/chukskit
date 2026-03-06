@@ -30,7 +30,8 @@ Chuks Kitchen currently has **5 main pages**:
 2. **Explore** – Discovery page to browse and search meals  
 3. **My Order** – Displays user order history  
 4. **Account** – User account management (Sign In / Sign Up / Profile)  
-5. **Contact** – Contact and information page  
+5. **Contact** – Contact and information page   
+    to access food details page click on any cards img on Popular Categories on home page
 
 ---
 
